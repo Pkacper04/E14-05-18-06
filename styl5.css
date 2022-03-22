@@ -9,4 +9,41 @@
     background-color: #3A70B5;
     width: 33%;
     height: 200px;
+    float: left;
+}
+
+#srodkowy{
+    background-color: #5A8AC8;
+    width: 33%;
+    height: 200px;
+    float: left;
+}
+
+#prawy{
+    background-color: #86ACDD;
+    text-align: center;
+    width: 34%;
+    height: 200px;
+    float: left;
+}
+
+#dolny{
+    background-color: #86ACDD;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    float: left;
+}
+
+#stopka{
+    background-color: #1C59A7;
+    color: white;
+    float: left;
+    width: 100%;
+}
+
+#prawy a{
+    background-color: yellow;
+    color: blue;
+    padding: 10px;
 }
