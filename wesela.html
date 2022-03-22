@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="styl5.css">
 
     <script>
+        function ObliczKoszt(){
+            var ilosc_gosci = document.getElementById("ilosc_gosci").value;
+            var poprawiny = document.getElementById("poprawiny").checked;
+
+            var cena = ilosc_gosci * 100;
+            if(poprawiny)
+                cena += cena*0.3;
+
+            document.getElementById("wynik").innerHTML = "Koszt Twojego wesela to "+cena+" złotych";
+            return false;
+        }
 
 
     </script>
@@ -48,7 +59,7 @@
     <input type="checkbox" id="poprawiny">
     Wesele z poprawinami?
     <br>
-    <button>Oblicz koszt</button>
+    <button onclick="ObliczKoszt()">Oblicz koszt</button>
     <br>
     <p id="wynik"></p>
 </section>
